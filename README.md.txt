@@ -1,0 +1,1 @@
+USB-C powered 3.3V sensor breakout PCB in KiCad featuring ESD/TVS protection, fuse, LDO regulation, I2C sensor, test points, and DFM-ready manufacturing outputs (Gerbers/BOM/PNP)
