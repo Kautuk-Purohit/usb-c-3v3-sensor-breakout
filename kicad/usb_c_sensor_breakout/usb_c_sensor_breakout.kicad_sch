@@ -2,9 +2,297 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid a2072585-dfc7-469c-b616-14a83342abb9)
+	(uuid "a2072585-dfc7-469c-b616-14a83342abb9")
 	(paper "A4")
+	(title_block
+		(title "USB-C Sensor Breakout Board")
+		(date "2026-02-05")
+		(rev "A")
+		(company "Personal Project")
+	)
 	(lib_symbols)
+	(junction
+		(at 87.63 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1198c7f-89bb-4b3a-9b3b-10d75c5f8d3d")
+	)
+	(wire
+		(pts
+			(xy 91.44 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dc2166-caf6-4b5a-a681-82634d443181")
+	)
+	(wire
+		(pts
+			(xy 87.63 25.4) (xy 91.44 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a4d83b-d30a-4ce8-a587-390758ab7c57")
+	)
+	(wire
+		(pts
+			(xy 69.85 25.4) (xy 87.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e54459-8587-4236-9349-fd647fcb7104")
+	)
+	(wire
+		(pts
+			(xy 40.64 29.21) (xy 57.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b364ad6f-6417-44b2-b896-03f1cef6e04d")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 87.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb6d24a-3e7b-4da7-90b6-ef5cb1e0e0d9")
+	)
+	(label "+3V3"
+		(at 80.01 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ae3f99f-b537-47ac-9cc0-9a858b98b4ad")
+	)
+	(sheet
+		(at 21.59 20.32)
+		(size 19.05 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cb23028-9002-4014-b3cb-b730b7692fef")
+		(property "Sheetname" "POWER_INPUT"
+			(at 21.59 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_INPUT.kicad_sch"
+			(at 21.59 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 40.64 29.21 0)
+			(uuid "4ad3e6ce-0016-41b6-bfea-30c24ac270fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_c_sensor_breakout"
+				(path "/a2072585-dfc7-469c-b616-14a83342abb9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 21.59)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "447a3edd-df06-4977-9e2f-278020fd9b85")
+		(property "Sheetname" "REGULATOR_3V3"
+			(at 57.15 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "REGULATOR_3V3.kicad_sch"
+			(at 56.896 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 69.85 25.4 0)
+			(uuid "72834b3c-e3d9-4ed2-a4bc-e82c95a0514f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 57.15 29.21 180)
+			(uuid "92eaa40d-e6cc-4e4e-be24-98e1e2c0e101")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "usb_c_sensor_breakout"
+				(path "/a2072585-dfc7-469c-b616-14a83342abb9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 50.8)
+		(size 19.05 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f181b3f-6072-4b32-b04c-1561f838d1fb")
+		(property "Sheetname" "CONNECTORS"
+			(at 91.694 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONNECTORS.kiCad_sch"
+			(at 91.44 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 91.44 58.42 180)
+			(uuid "d9aab3aa-4ddd-4bcd-af73-acab88b0fef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "usb_c_sensor_breakout"
+				(path "/a2072585-dfc7-469c-b616-14a83342abb9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 20.32)
+		(size 16.51 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0214f3f-e3d2-48e9-b6c3-7eb50f6bf384")
+		(property "Sheetname" "SENSOR_I2C"
+			(at 91.44 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSOR_I2C.kicad_sch"
+			(at 91.44 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 91.44 25.4 180)
+			(uuid "1504dced-078a-4d07-a575-77410871e2f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "usb_c_sensor_breakout"
+				(path "/a2072585-dfc7-469c-b616-14a83342abb9"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
