@@ -1491,7 +1491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 97.028 90)
 			(effects
 				(font
@@ -1565,7 +1565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 106.68 85.598 90)
 			(effects
 				(font
@@ -1709,7 +1709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 103.378 90)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 86.36 88.9 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -1947,7 +1947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 121.92 83.82 0)
 			(effects
 				(font
