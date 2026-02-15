@@ -6,44 +6,42 @@
 	(paper "A4")
 	(title_block
 		(title "USB-C Sensor Breakout Board")
-		(date "2026-02-05")
+		(date "2026-02-15")
 		(rev "A")
 		(company "Personal Project")
 	)
 	(lib_symbols)
 	(junction
-		(at 87.63 49.53)
+		(at 180.34 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7459b709-cc5c-42e3-8822-31054885603f")
+		(uuid "60a6176f-3cfc-4365-88df-75b21051f642")
 	)
-	(no_connect
-		(at 128.27 121.92)
-		(uuid "143a00e0-1b79-449a-b60b-bb8343d0311f")
+	(junction
+		(at 177.8 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6607668f-aa3d-4f71-ac5d-5f35e78881bd")
 	)
-	(no_connect
-		(at 128.27 116.84)
-		(uuid "182bb66d-b2a9-48c0-b840-087c7b187740")
+	(junction
+		(at 87.63 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9370723f-5252-4155-a5a9-6632c00bb967")
 	)
-	(no_connect
-		(at 128.27 105.41)
-		(uuid "44146868-18ed-4d1c-8a6c-ffca66a77bce")
-	)
-	(no_connect
-		(at 128.27 127)
-		(uuid "b25f748c-04a8-40b4-829e-d6355bf0dcd8")
+	(junction
+		(at 87.63 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dad3f22b-af0c-49c3-9709-fa990c5425f1")
 	)
 	(no_connect
 		(at 172.72 50.8)
 		(uuid "ccc8f7bc-d205-4d44-9e45-ed91d82a8299")
 	)
-	(no_connect
-		(at 128.27 110.49)
-		(uuid "efa4b13a-eba1-414f-a4f6-eafe4dd09d6f")
-	)
 	(wire
 		(pts
-			(xy 128.27 90.17) (xy 87.63 90.17)
+			(xy 128.27 93.98) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -53,33 +51,63 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 87.63 90.17)
+			(xy 180.34 104.14) (xy 180.34 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18bc2ecb-b7b7-4524-be1a-7d65669e665d")
+		(uuid "08ff0e08-e038-4ba9-b9f6-be2ae451075a")
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 173.99 92.71)
+			(xy 115.57 118.11) (xy 128.27 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d2130d3-5cb4-4860-bad3-ff4c49499ddf")
+		(uuid "0db4f41b-aeda-4124-b2d4-a68156dc9dd0")
 	)
 	(wire
 		(pts
-			(xy 39.37 53.34) (xy 62.23 53.34)
+			(xy 175.26 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3540f61f-466c-4619-bd9c-b3a3d9927b6b")
+		(uuid "16e05a60-b823-4590-971d-e49897aec9ad")
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae174a6-effa-4bc6-9924-7132377d0a17")
+	)
+	(wire
+		(pts
+			(xy 55.88 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c68955-5add-4f8a-8f4f-82abe2ca61bf")
+	)
+	(wire
+		(pts
+			(xy 115.57 138.43) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d92576-5ddb-4c4c-a02a-f546849065aa")
 	)
 	(wire
 		(pts
@@ -93,7 +121,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 40.64) (xy 177.8 92.71)
+			(xy 177.8 40.64) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -103,7 +131,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 31.75) (xy 180.34 100.33)
+			(xy 180.34 31.75) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -123,6 +151,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 53.34) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752112d9-b233-4358-8dfc-9b0d88d8ba1c")
+	)
+	(wire
+		(pts
+			(xy 115.57 128.27) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a389d01-7881-4365-9c61-eb0d056f203f")
+	)
+	(wire
+		(pts
 			(xy 172.72 40.64) (xy 177.8 40.64)
 		)
 		(stroke
@@ -133,7 +181,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 49.53) (xy 87.63 49.53)
+			(xy 177.8 96.52) (xy 177.8 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9471fa82-1f25-4c1e-9b7d-f293313ec1c7")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 87.63 45.72)
 		)
 		(stroke
 			(width 0)
@@ -143,26 +201,106 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 100.33) (xy 173.99 100.33)
+			(xy 55.88 93.98) (xy 55.88 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc9e0257-1a7e-476e-bcd9-fe1ed69e4d79")
+		(uuid "a75b4098-4898-4031-9b6f-f2be2fab80f7")
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 87.63 29.21)
+			(xy 115.57 113.03) (xy 128.27 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6745c48-b39c-4aa4-8809-c1e1c9cac1a3")
+		(uuid "b554971b-c301-48da-9582-febcfeb75634")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34) (xy 55.88 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c648b2-f72f-43f9-aca2-cb07107e7683")
+	)
+	(wire
+		(pts
+			(xy 115.57 158.75) (xy 180.34 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e3f783-7688-4e39-8f48-c14e1adf5f8b")
+	)
+	(wire
+		(pts
+			(xy 115.57 143.51) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf49c8f3-d74a-4b0b-b510-088a01aa9bfc")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff3953a-2d78-472f-b26f-eec7f4199b0f")
+	)
+	(wire
+		(pts
+			(xy 115.57 163.83) (xy 177.8 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daff3f82-31af-44ae-967a-b4fbcb1b8cf3")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef105ad1-a61c-4c58-8ad9-f9682c5a7ab5")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 58.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f2a4d4-383f-4d23-bb4b-b21a3c7e6d5d")
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72) (xy 87.63 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ffe02d-88e3-4ec9-bc92-cd8f5911bf5a")
 	)
 	(label "+3V3"
-		(at 87.63 49.53 0)
+		(at 87.63 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -224,7 +362,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 45.72)
+		(at 58.42 41.91)
 		(size 21.59 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -239,7 +377,7 @@
 		)
 		(uuid "447a3edd-df06-4977-9e2f-278020fd9b85")
 		(property "Sheetname" "REGULATOR_3V3"
-			(at 62.23 45.0084 0)
+			(at 58.42 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,7 +386,7 @@
 			)
 		)
 		(property "Sheetfile" "REGULATOR_3V3.kicad_sch"
-			(at 62.23 94.742 0)
+			(at 54.864 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,7 +395,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 83.82 49.53 0)
+			(at 80.01 45.72 0)
 			(uuid "72834b3c-e3d9-4ed2-a4bc-e82c95a0514f")
 			(effects
 				(font
@@ -267,7 +405,7 @@
 			)
 		)
 		(pin "+5V_IN" input
-			(at 62.23 53.34 180)
+			(at 58.42 49.53 180)
 			(uuid "92eaa40d-e6cc-4e4e-be24-98e1e2c0e101")
 			(effects
 				(font
@@ -285,8 +423,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 82.55)
-		(size 45.72 50.8)
+		(at 128.27 86.36)
+		(size 46.99 62.23)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -300,7 +438,7 @@
 		)
 		(uuid "6f181b3f-6072-4b32-b04c-1561f838d1fb")
 		(property "Sheetname" "CONNECTORS"
-			(at 128.524 82.296 0)
+			(at 128.524 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +447,7 @@
 			)
 		)
 		(property "Sheetfile" "CONNECTORS.kiCad_sch"
-			(at 128.016 136.906 0)
+			(at 128.524 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +456,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 128.27 90.17 180)
+			(at 128.27 93.98 180)
 			(uuid "d9aab3aa-4ddd-4bcd-af73-acab88b0fef3")
 			(effects
 				(font
@@ -328,7 +466,7 @@
 			)
 		)
 		(pin "I2C_SDA" input
-			(at 173.99 92.71 0)
+			(at 175.26 96.52 0)
 			(uuid "bca75f30-a9cb-4070-95e6-01ca16853747")
 			(effects
 				(font
@@ -338,7 +476,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 173.99 100.33 0)
+			(at 175.26 104.14 0)
 			(uuid "46de99c5-2c3c-4667-97ff-9506a7c13b43")
 			(effects
 				(font
@@ -348,7 +486,7 @@
 			)
 		)
 		(pin "SWCLK" input
-			(at 128.27 105.41 180)
+			(at 128.27 118.11 180)
 			(uuid "59484a5d-3d9f-410d-bd31-ef99850d414a")
 			(effects
 				(font
@@ -358,7 +496,7 @@
 			)
 		)
 		(pin "SWDIO" input
-			(at 128.27 110.49 180)
+			(at 128.27 113.03 180)
 			(uuid "a5f1d2bb-f0b9-4dd1-8e9b-41ac2cf67013")
 			(effects
 				(font
@@ -368,7 +506,7 @@
 			)
 		)
 		(pin "NRST" input
-			(at 128.27 116.84 180)
+			(at 128.27 128.27 180)
 			(uuid "77d71f78-e092-4f21-b123-ba4d30166304")
 			(effects
 				(font
@@ -378,7 +516,7 @@
 			)
 		)
 		(pin "UART_RX" input
-			(at 128.27 121.92 180)
+			(at 128.27 143.51 180)
 			(uuid "332fe0fb-ff89-4a40-a67d-771574d53854")
 			(effects
 				(font
@@ -388,7 +526,7 @@
 			)
 		)
 		(pin "UART_TX" input
-			(at 128.27 127 180)
+			(at 128.27 138.43 180)
 			(uuid "4f4c70f7-890b-4b28-9905-23ce30424108")
 			(effects
 				(font
@@ -401,6 +539,128 @@
 			(project "usb_c_sensor_breakout"
 				(path "/a2072585-dfc7-469c-b616-14a83342abb9"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 102.87)
+		(size 53.34 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77584599-d8c5-4de1-baf7-3af6c2af6331")
+		(property "Sheetname" "MICROCONTROLLER"
+			(at 62.23 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 62.23 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 62.23 113.03 180)
+			(uuid "25a0747e-b2cc-45aa-9eab-05b118e6bc17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 115.57 158.75 0)
+			(uuid "fd98d09c-569d-4ca2-af71-276d208376ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 115.57 163.83 0)
+			(uuid "7bd4cb19-f053-4a8f-b195-903ef5fc0787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" input
+			(at 115.57 128.27 0)
+			(uuid "2dceeb94-2719-4826-9dec-ec42f6304f03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 115.57 118.11 0)
+			(uuid "52f960b5-74d9-4f47-b49f-2372d8736ed1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" input
+			(at 115.57 113.03 0)
+			(uuid "33cd9096-8fd3-47b7-8db6-b532c569d2ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 115.57 143.51 0)
+			(uuid "3e800036-c10a-4816-8062-4c13c6fc5351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 115.57 138.43 0)
+			(uuid "a36163fb-ab08-42c6-afae-40ab07b4bb87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_c_sensor_breakout"
+				(path "/a2072585-dfc7-469c-b616-14a83342abb9"
+					(page "6")
 				)
 			)
 		)
