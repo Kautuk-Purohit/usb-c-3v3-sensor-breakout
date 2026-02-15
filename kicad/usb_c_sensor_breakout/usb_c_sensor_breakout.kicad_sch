@@ -12,14 +12,38 @@
 	)
 	(lib_symbols)
 	(junction
-		(at 87.63 25.4)
+		(at 87.63 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1198c7f-89bb-4b3a-9b3b-10d75c5f8d3d")
+		(uuid "7459b709-cc5c-42e3-8822-31054885603f")
+	)
+	(no_connect
+		(at 128.27 121.92)
+		(uuid "143a00e0-1b79-449a-b60b-bb8343d0311f")
+	)
+	(no_connect
+		(at 128.27 116.84)
+		(uuid "182bb66d-b2a9-48c0-b840-087c7b187740")
+	)
+	(no_connect
+		(at 128.27 105.41)
+		(uuid "44146868-18ed-4d1c-8a6c-ffca66a77bce")
+	)
+	(no_connect
+		(at 128.27 127)
+		(uuid "b25f748c-04a8-40b4-829e-d6355bf0dcd8")
+	)
+	(no_connect
+		(at 172.72 50.8)
+		(uuid "ccc8f7bc-d205-4d44-9e45-ed91d82a8299")
+	)
+	(no_connect
+		(at 128.27 110.49)
+		(uuid "efa4b13a-eba1-414f-a4f6-eafe4dd09d6f")
 	)
 	(wire
 		(pts
-			(xy 91.44 58.42) (xy 87.63 58.42)
+			(xy 128.27 90.17) (xy 87.63 90.17)
 		)
 		(stroke
 			(width 0)
@@ -29,46 +53,116 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 25.4) (xy 91.44 25.4)
+			(xy 87.63 49.53) (xy 87.63 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05a4d83b-d30a-4ce8-a587-390758ab7c57")
+		(uuid "18bc2ecb-b7b7-4524-be1a-7d65669e665d")
 	)
 	(wire
 		(pts
-			(xy 69.85 25.4) (xy 87.63 25.4)
+			(xy 177.8 92.71) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13e54459-8587-4236-9349-fd647fcb7104")
+		(uuid "1d2130d3-5cb4-4860-bad3-ff4c49499ddf")
 	)
 	(wire
 		(pts
-			(xy 40.64 29.21) (xy 57.15 29.21)
+			(xy 39.37 53.34) (xy 62.23 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b364ad6f-6417-44b2-b896-03f1cef6e04d")
+		(uuid "3540f61f-466c-4619-bd9c-b3a3d9927b6b")
 	)
 	(wire
 		(pts
-			(xy 87.63 58.42) (xy 87.63 25.4)
+			(xy 172.72 31.75) (xy 180.34 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbb6d24a-3e7b-4da7-90b6-ef5cb1e0e0d9")
+		(uuid "4299b5a7-9cbe-47dd-a1df-ff9ec0ec12ff")
+	)
+	(wire
+		(pts
+			(xy 177.8 40.64) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46281271-5391-48d9-a58f-c6b1ac9d5c16")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58430e8f-25a1-4055-b1ca-ac96d59696fe")
+	)
+	(wire
+		(pts
+			(xy 87.63 29.21) (xy 129.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8ab107-f692-4088-a268-93ba4e7bf3d3")
+	)
+	(wire
+		(pts
+			(xy 172.72 40.64) (xy 177.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c507ba9-a998-497c-bf93-e8850eeaf7ee")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1d3277-2d7b-4a09-8d23-1abb0a7836c1")
+	)
+	(wire
+		(pts
+			(xy 180.34 100.33) (xy 173.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9e0257-1a7e-476e-bcd9-fe1ed69e4d79")
+	)
+	(wire
+		(pts
+			(xy 87.63 49.53) (xy 87.63 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6745c48-b39c-4aa4-8809-c1e1c9cac1a3")
 	)
 	(label "+3V3"
-		(at 80.01 25.4 0)
+		(at 87.63 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,7 +172,7 @@
 		(uuid "8ae3f99f-b537-47ac-9cc0-9a858b98b4ad")
 	)
 	(sheet
-		(at 21.59 20.32)
+		(at 20.32 44.45)
 		(size 19.05 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -94,7 +188,7 @@
 		)
 		(uuid "2cb23028-9002-4014-b3cb-b730b7692fef")
 		(property "Sheetname" "POWER_INPUT"
-			(at 21.59 19.6084 0)
+			(at 20.32 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_INPUT.kicad_sch"
-			(at 21.59 43.7646 0)
+			(at 20.32 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +206,7 @@
 			)
 		)
 		(pin "+5V_IN" input
-			(at 40.64 29.21 0)
+			(at 39.37 53.34 0)
 			(uuid "4ad3e6ce-0016-41b6-bfea-30c24ac270fd")
 			(effects
 				(font
@@ -130,8 +224,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 21.59)
-		(size 12.7 22.86)
+		(at 62.23 45.72)
+		(size 21.59 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -145,7 +239,7 @@
 		)
 		(uuid "447a3edd-df06-4977-9e2f-278020fd9b85")
 		(property "Sheetname" "REGULATOR_3V3"
-			(at 57.15 20.8784 0)
+			(at 62.23 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +248,7 @@
 			)
 		)
 		(property "Sheetfile" "REGULATOR_3V3.kicad_sch"
-			(at 56.896 44.958 0)
+			(at 62.23 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +257,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 69.85 25.4 0)
+			(at 83.82 49.53 0)
 			(uuid "72834b3c-e3d9-4ed2-a4bc-e82c95a0514f")
 			(effects
 				(font
@@ -173,7 +267,7 @@
 			)
 		)
 		(pin "+5V_IN" input
-			(at 57.15 29.21 180)
+			(at 62.23 53.34 180)
 			(uuid "92eaa40d-e6cc-4e4e-be24-98e1e2c0e101")
 			(effects
 				(font
@@ -191,8 +285,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 50.8)
-		(size 19.05 24.13)
+		(at 128.27 82.55)
+		(size 45.72 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -206,7 +300,7 @@
 		)
 		(uuid "6f181b3f-6072-4b32-b04c-1561f838d1fb")
 		(property "Sheetname" "CONNECTORS"
-			(at 91.694 50.546 0)
+			(at 128.524 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,7 +309,7 @@
 			)
 		)
 		(property "Sheetfile" "CONNECTORS.kiCad_sch"
-			(at 91.44 75.5146 0)
+			(at 128.016 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -224,8 +318,78 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 91.44 58.42 180)
+			(at 128.27 90.17 180)
 			(uuid "d9aab3aa-4ddd-4bcd-af73-acab88b0fef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 173.99 92.71 0)
+			(uuid "bca75f30-a9cb-4070-95e6-01ca16853747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 173.99 100.33 0)
+			(uuid "46de99c5-2c3c-4667-97ff-9506a7c13b43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 128.27 105.41 180)
+			(uuid "59484a5d-3d9f-410d-bd31-ef99850d414a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 128.27 110.49 180)
+			(uuid "a5f1d2bb-f0b9-4dd1-8e9b-41ac2cf67013")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 128.27 116.84 180)
+			(uuid "77d71f78-e092-4f21-b123-ba4d30166304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 128.27 121.92 180)
+			(uuid "332fe0fb-ff89-4a40-a67d-771574d53854")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 128.27 127 180)
+			(uuid "4f4c70f7-890b-4b28-9905-23ce30424108")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,8 +406,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 20.32)
-		(size 16.51 25.4)
+		(at 129.54 24.13)
+		(size 43.18 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -258,7 +422,7 @@
 		)
 		(uuid "b0214f3f-e3d2-48e9-b6c3-7eb50f6bf384")
 		(property "Sheetname" "SENSOR_I2C"
-			(at 91.44 19.6084 0)
+			(at 129.54 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,7 +431,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSOR_I2C.kicad_sch"
-			(at 91.44 46.3046 0)
+			(at 129.54 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,13 +440,43 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 91.44 25.4 180)
+			(at 129.54 29.21 180)
 			(uuid "1504dced-078a-4d07-a575-77410871e2f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 172.72 31.75 0)
+			(uuid "33055d58-7cfc-4bea-8a1a-4fdd9768c335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 172.72 40.64 0)
+			(uuid "65f36b9b-71a8-44e7-981c-1f3db7e1b122")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 172.72 50.8 0)
+			(uuid "fd395ee5-94d2-44cf-9dfc-85da9cfe3177")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

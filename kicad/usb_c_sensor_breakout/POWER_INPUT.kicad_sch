@@ -5,6 +5,113 @@
 	(uuid "d18c1865-e409-4bd5-88b0-fac92a0a0c82")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -1068,12 +1175,6 @@
 		)
 	)
 	(junction
-		(at 119.38 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fb353da-f1f5-47bb-b04f-e850ae91acc9")
-	)
-	(junction
 		(at 82.55 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1086,10 +1187,16 @@
 		(uuid "57c2afd4-ed54-4ac6-b818-47db616abef8")
 	)
 	(junction
-		(at 115.57 83.82)
+		(at 116.84 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2685268-c340-4715-b1ea-7389a4122c78")
+		(uuid "5a999708-11be-41e5-afd1-a42a637405c0")
+	)
+	(junction
+		(at 134.62 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "648f936a-b662-402e-bfb2-617a2bc315e9")
 	)
 	(junction
 		(at 97.79 83.82)
@@ -1110,16 +1217,6 @@
 			(type default)
 		)
 		(uuid "16b738d2-c8ac-41b0-a05d-e64440c7d97c")
-	)
-	(wire
-		(pts
-			(xy 115.57 83.82) (xy 119.38 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36aa8b0a-c92b-4195-82cb-3d3396b1c9c7")
 	)
 	(wire
 		(pts
@@ -1150,6 +1247,16 @@
 			(type default)
 		)
 		(uuid "4b5d5e09-9bb3-4128-bb9f-752d9aaf7408")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596c7da0-4ffc-4327-9364-e46aac4ebd30")
 	)
 	(wire
 		(pts
@@ -1190,16 +1297,6 @@
 			(type default)
 		)
 		(uuid "8b0ce85c-dea6-4bbf-ab7c-7b480cb85b0b")
-	)
-	(wire
-		(pts
-			(xy 119.38 83.82) (xy 121.92 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9562880b-6f1a-4e38-97c9-1db20f2baec8")
 	)
 	(wire
 		(pts
@@ -1253,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 115.57 83.82)
+			(xy 134.62 83.82) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 83.82) (xy 115.57 83.82)
+			(xy 110.49 83.82) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1291,19 +1388,9 @@
 		)
 		(uuid "ee51e1c1-cf01-4b64-873a-9f5484583bf7")
 	)
-	(label "+5V_IN"
-		(at 121.92 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfb6c730-4fa8-4383-94c4-0e715b6eab84")
-	)
 	(hierarchical_label "+5V_IN"
 		(shape input)
-		(at 115.57 86.36 0)
+		(at 134.62 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1528,7 +1615,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 119.38 83.82 0)
+		(at 134.62 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1536,7 +1623,7 @@
 		(dnp no)
 		(uuid "2def58b8-779f-44c0-8226-2f617fd2c6b4")
 		(property "Reference" "#FLG0101"
-			(at 119.38 81.915 0)
+			(at 134.62 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1632,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 119.38 79.502 0)
+			(at 134.62 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 83.82 0)
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 83.82 0)
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1658,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 119.38 83.82 0)
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,6 +1914,73 @@
 			(project "POWER_INPUT"
 				(path "/d18c1865-e409-4bd5-88b0-fac92a0a0c82"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dfead1d-45f3-43a8-a45a-fe0f84fdf47e")
+		(property "Reference" "TP3"
+			(at 119.38 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_+5V_IN"
+			(at 119.38 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b03d125-1b03-420b-8dcf-db815130c85e")
+		)
+		(instances
+			(project ""
+				(path "/a2072585-dfc7-469c-b616-14a83342abb9/2cb23028-9002-4014-b3cb-b730b7692fef"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
