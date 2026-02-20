@@ -1,7 +1,7 @@
-# Interview PCB Project (KiCad)
+# KiCad PCB Project
 
-A fabrication ready PCB designed as an interview portfolio project.  
-Includes full schematic and PCB layout, verified with ERC (Electrical Rules Check) and DRC (Design Rules Check), and validated Gerbers and drills in Gerber Viewer.
+A fabrication ready PCB designed as a portfolio project.  
+Includes a full schematic and PCB layout, verified with ERC (Electrical Rules Check) and DRC (Design Rules Check), and validated Gerbers and drills in Gerber Viewer.
 
 ![PCB 3D View](Images/pcb_design/final_pcb_layout_3D_model_front.png)
 
@@ -15,21 +15,21 @@ Includes full schematic and PCB layout, verified with ERC (Electrical Rules Chec
 - [Verification](#verification)
 - [Manufacturing Outputs](#manufacturing-outputs)
 - [How to Open](#how-to-open)
-- [Images](#images)
+- [Key Images](#images)
 - [Next Improvements](#next-improvements)
 
 ---
 
 ## Overview
 This project demonstrates an end to end PCB workflow:
-schematic capture → layout and routing → design rule checks → manufacturing outputs.
+schematic design → layout and routing → design rule checks → manufacturing outputs
 
-The goal is to show practical board design skills (power, interfaces, layout, manufacturability) in a way that is easy to review quickly in an interview.
+The goal is to show practical board design skills (power, interfaces, layout, manufacturability) 
 
 ---
 
 ## Key Features
-- USB power input with on board 3.3 V regulation
+- USB power input with on board 3.3V regulation
 - Microcontroller based system design
 - I2C (Inter Integrated Circuit) sensor bus (IMU)
 - Labeled connectors and test points for bring up
@@ -56,14 +56,17 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 ## Repo Structure
 ```text
 .
-├── hardware/                  # KiCad schematic + PCB
+├── kicad/                     # KiCad schematic + PCB
 ├── manufacturing/
 │   ├── gerbers/               # plotted Gerbers
 │   ├── drill/                 # Excellon drills (PTH + NPTH)
 │   ├── bom/                   # BOM exports
 │   ├── assembly/              # pick and place / position outputs
 │   └── release/               # upload ready ZIP(s)
-└── screenshots/               # verification screenshots for quick review
+└── images/                    
+│   ├── manufacturing/         # Manufacturing related pictures
+│   ├── pcb_design/            # PCB Design pictures
+│   ├── schematic/             # Schematic related pictures
 ```
 ---
 
@@ -86,7 +89,7 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 ---
 
 ## How to Open
-1. Install KiCad (project created in KiCad 9.x recommended).
+1. Install KiCad (project created in KiCad 9.0).
 2. Open the project in `hardware/`.
 3. Review:
    - Schematic (`.kicad_sch`)
@@ -97,20 +100,20 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 ---
 
 ## Images
-- PCB 3D front: `screenshots/CP5_04_3D_Front.png`
-- PCB 3D back: `screenshots/CP5_05_3D_Back.png`
-- Gerber overlay: `screenshots/CP5_09_GerberViewer_Overlay.png`
-- Drill overlay (PTH + NPTH): `screenshots/CP5_10_GerberViewer_Drills.png`
-- (Optional) DRC clean: `screenshots/CP5_03_DRC_Clean.png`
+- PCB 3D front: `Images/pcb_design/final_pcb_layout_3D_model_front.png`
+- PCB 3D back: `Images/pcb_design/final_pcb_layout_3D_model_back.png`
+- PCB Final Layout: `Images/pcb_design/final_pcb_layout.png`
+- Gerber overlay: `Images/manufacturing/gerber_viewer_pads_and_holes.png`
+- Drill overlay (PTH + NPTH): `Images/manufacturing/gerber_viewer_pads_and_holes.png`
 
 ---
 
 ## Next Improvements
-If I spin a rev B, I would consider:
-- Add fiducials and mounting holes (if not present)
-- Add additional ESD protection on external connectors (if not present)
+In a future revision:
+- Add fiducials
+- Add additional ESD protection (eg. for external connectors)
 - Improve silkscreen placement and reference readability
-- Add clearer programming / debug access (if not present)
+- Adding NPTH drills (mounting holes) for realistic usage
 
 ---
 
