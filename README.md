@@ -3,7 +3,7 @@
 A fabrication ready PCB designed as an interview portfolio project.  
 Includes full schematic and PCB layout, verified with ERC (Electrical Rules Check) and DRC (Design Rules Check), and validated Gerbers and drills in Gerber Viewer.
 
-![PCB 3D View](screenshots/CP5_04_3D_Front.png)
+![PCB 3D View](Images/pcb_design/final_pcb_layout_3D_model_front.png)
 
 ---
 
