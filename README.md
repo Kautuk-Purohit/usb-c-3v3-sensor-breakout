@@ -100,7 +100,7 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 ---
 
 ## Images
-- PCB 3D front: `Images/pcb_design/final_pcb_layout_3D_model_front.png`
+- PCB 3D front: ![PCB 3D Front](Images/pcb_design/final_pcb_layout_3D_model_front.png)
 - PCB 3D back: `Images/pcb_design/final_pcb_layout_3D_model_back.png`
 - PCB Final Layout: `Images/pcb_design/final_pcb_layout.png`
 - Gerber overlay: `Images/manufacturing/gerber_viewer_pads_and_holes.png`
