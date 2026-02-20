@@ -1056,7 +1056,7 @@
 		(uuid "f876cbba-d168-4fda-b5ec-6437741fbcb1")
 	)
 	(hierarchical_label "I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 105.41 86.36 180)
 		(effects
 			(font
@@ -1111,7 +1111,7 @@
 		(uuid "6c4fd6f1-77e7-431d-9af9-df58deefa843")
 	)
 	(hierarchical_label "IMU_INT"
-		(shape input)
+		(shape output)
 		(at 177.8 91.44 0)
 		(effects
 			(font

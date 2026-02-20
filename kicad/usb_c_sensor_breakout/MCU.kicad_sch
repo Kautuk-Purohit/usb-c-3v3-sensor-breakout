@@ -1573,7 +1573,7 @@
 		(uuid "5303115a-76a5-4062-bca0-2ea7db863333")
 	)
 	(hierarchical_label "UART_TX"
-		(shape input)
+		(shape output)
 		(at 134.62 78.74 0)
 		(effects
 			(font
@@ -1584,7 +1584,7 @@
 		(uuid "6654f178-208e-4e65-99fd-f68507e7891b")
 	)
 	(hierarchical_label "I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 83.82 106.68 180)
 		(effects
 			(font
@@ -1595,7 +1595,7 @@
 		(uuid "667d78b8-0a6e-43ba-8ba5-699396376174")
 	)
 	(hierarchical_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 134.62 101.6 0)
 		(effects
 			(font
@@ -1617,7 +1617,7 @@
 		(uuid "695486c9-791d-4de7-b6b2-dbe4aa0a8435")
 	)
 	(hierarchical_label "SWCLK"
-		(shape input)
+		(shape output)
 		(at 134.62 104.14 0)
 		(effects
 			(font
@@ -1650,7 +1650,7 @@
 		(uuid "dd47dcd9-3234-4aeb-8552-daa5e3d3a1ec")
 	)
 	(hierarchical_label "I2C_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 83.82 104.14 180)
 		(effects
 			(font

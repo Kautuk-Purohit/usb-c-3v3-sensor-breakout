@@ -1187,16 +1187,16 @@
 		(uuid "5a999708-11be-41e5-afd1-a42a637405c0")
 	)
 	(junction
-		(at 134.62 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "648f936a-b662-402e-bfb2-617a2bc315e9")
-	)
-	(junction
 		(at 97.79 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e979431a-2b23-4c9b-a416-cd90ff8ebeea")
+	)
+	(junction
+		(at 134.62 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec81a7d9-1ea3-4070-91c9-e2c5bf33cc79")
 	)
 	(no_connect
 		(at 74.93 109.22)
@@ -1211,6 +1211,16 @@
 			(type default)
 		)
 		(uuid "16b738d2-c8ac-41b0-a05d-e64440c7d97c")
+	)
+	(wire
+		(pts
+			(xy 135.89 83.82) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292eb86a-1e49-4b95-9236-33913a0450ab")
 	)
 	(wire
 		(pts
@@ -1324,16 +1334,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 83.82) (xy 134.62 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6cbf1c4-0c14-4085-b6fb-1663aa72597f")
-	)
-	(wire
-		(pts
 			(xy 110.49 83.82) (xy 116.84 83.82)
 		)
 		(stroke
@@ -1352,9 +1352,19 @@
 		)
 		(uuid "ff784b3f-2f70-4792-b1d9-2c53031d0898")
 	)
+	(label "+5V_IN"
+		(at 97.79 83.82 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88bf2e1d-82e6-4af6-aa95-f51528955e71")
+	)
 	(hierarchical_label "+5V_IN"
-		(shape input)
-		(at 134.62 87.63 0)
+		(shape output)
+		(at 135.89 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1879,7 +1889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17"
 			(at 86.36 88.9 0)
 			(effects
 				(font

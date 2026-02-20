@@ -667,7 +667,7 @@
 		(uuid "f0b41685-7db3-4cc2-b85a-3427fdc4f46a")
 	)
 	(hierarchical_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 118.11 52.07 180)
 		(effects
 			(font
@@ -678,7 +678,7 @@
 		(uuid "028e50e1-156b-4d11-b142-078437ccb5a6")
 	)
 	(hierarchical_label "UART_TX"
-		(shape input)
+		(shape output)
 		(at 118.11 78.74 180)
 		(effects
 			(font
@@ -700,7 +700,7 @@
 		(uuid "67f65de1-ea10-4c46-b87f-8918f684d739")
 	)
 	(hierarchical_label "I2C_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 118.11 107.95 180)
 		(effects
 			(font
@@ -722,7 +722,7 @@
 		(uuid "85b01846-0973-4970-9806-a96460995702")
 	)
 	(hierarchical_label "I2C_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 118.11 105.41 180)
 		(effects
 			(font
@@ -733,7 +733,7 @@
 		(uuid "928b8449-06e3-49fe-9400-fae699888b20")
 	)
 	(hierarchical_label "NRST"
-		(shape input)
+		(shape bidirectional)
 		(at 118.11 57.15 180)
 		(effects
 			(font
@@ -1003,7 +1003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f77656-58bb-4750-8b43-62f52d074e8a")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 129.54 55.8799 0)
 			(effects
 				(font
@@ -1066,7 +1066,7 @@
 		(instances
 			(project ""
 				(path "/a2072585-dfc7-469c-b616-14a83342abb9/6f181b3f-6072-4b32-b04c-1561f838d1fb"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)

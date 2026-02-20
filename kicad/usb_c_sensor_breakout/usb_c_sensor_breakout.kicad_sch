@@ -151,16 +151,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 53.34) (xy 55.88 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752112d9-b233-4358-8dfc-9b0d88d8ba1c")
-	)
-	(wire
-		(pts
 			(xy 115.57 128.27) (xy 128.27 128.27)
 		)
 		(stroke
@@ -221,7 +211,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 53.34) (xy 55.88 53.34)
+			(xy 40.64 49.53) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -281,16 +271,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 58.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f2a4d4-383f-4d23-bb4b-b21a3c7e6d5d")
-	)
-	(wire
-		(pts
 			(xy 87.63 45.72) (xy 87.63 29.21)
 		)
 		(stroke
@@ -310,7 +290,7 @@
 		(uuid "8ae3f99f-b537-47ac-9cc0-9a858b98b4ad")
 	)
 	(sheet
-		(at 20.32 44.45)
+		(at 21.59 40.64)
 		(size 19.05 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -326,7 +306,7 @@
 		)
 		(uuid "2cb23028-9002-4014-b3cb-b730b7692fef")
 		(property "Sheetname" "POWER_INPUT"
-			(at 20.32 43.7384 0)
+			(at 21.59 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +315,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_INPUT.kicad_sch"
-			(at 20.32 67.8946 0)
+			(at 21.59 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -343,8 +323,8 @@
 				(justify left top)
 			)
 		)
-		(pin "+5V_IN" input
-			(at 39.37 53.34 0)
+		(pin "+5V_IN" output
+			(at 40.64 49.53 0)
 			(uuid "4ad3e6ce-0016-41b6-bfea-30c24ac270fd")
 			(effects
 				(font
@@ -394,7 +374,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3" input
+		(pin "+3V3" output
 			(at 80.01 45.72 0)
 			(uuid "72834b3c-e3d9-4ed2-a4bc-e82c95a0514f")
 			(effects
@@ -465,7 +445,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SDA" input
+		(pin "I2C_SDA" bidirectional
 			(at 175.26 96.52 0)
 			(uuid "bca75f30-a9cb-4070-95e6-01ca16853747")
 			(effects
@@ -475,7 +455,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SCL" input
+		(pin "I2C_SCL" bidirectional
 			(at 175.26 104.14 0)
 			(uuid "46de99c5-2c3c-4667-97ff-9506a7c13b43")
 			(effects
@@ -495,7 +475,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWDIO" input
+		(pin "SWDIO" bidirectional
 			(at 128.27 113.03 180)
 			(uuid "a5f1d2bb-f0b9-4dd1-8e9b-41ac2cf67013")
 			(effects
@@ -505,7 +485,7 @@
 				(justify left)
 			)
 		)
-		(pin "NRST" input
+		(pin "NRST" bidirectional
 			(at 128.27 128.27 180)
 			(uuid "77d71f78-e092-4f21-b123-ba4d30166304")
 			(effects
@@ -525,7 +505,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_TX" input
+		(pin "UART_TX" output
 			(at 128.27 138.43 180)
 			(uuid "4f4c70f7-890b-4b28-9905-23ce30424108")
 			(effects
@@ -587,7 +567,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SCL" input
+		(pin "I2C_SCL" bidirectional
 			(at 115.57 158.75 0)
 			(uuid "fd98d09c-569d-4ca2-af71-276d208376ea")
 			(effects
@@ -597,7 +577,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SDA" input
+		(pin "I2C_SDA" bidirectional
 			(at 115.57 163.83 0)
 			(uuid "7bd4cb19-f053-4a8f-b195-903ef5fc0787")
 			(effects
@@ -617,7 +597,7 @@
 				(justify right)
 			)
 		)
-		(pin "SWCLK" input
+		(pin "SWCLK" output
 			(at 115.57 118.11 0)
 			(uuid "52f960b5-74d9-4f47-b49f-2372d8736ed1")
 			(effects
@@ -627,7 +607,7 @@
 				(justify right)
 			)
 		)
-		(pin "SWDIO" input
+		(pin "SWDIO" bidirectional
 			(at 115.57 113.03 0)
 			(uuid "33cd9096-8fd3-47b7-8db6-b532c569d2ca")
 			(effects
@@ -647,7 +627,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_TX" input
+		(pin "UART_TX" output
 			(at 115.57 138.43 0)
 			(uuid "a36163fb-ab08-42c6-afae-40ab07b4bb87")
 			(effects
@@ -719,7 +699,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SDA" input
+		(pin "I2C_SDA" bidirectional
 			(at 172.72 40.64 0)
 			(uuid "65f36b9b-71a8-44e7-981c-1f3db7e1b122")
 			(effects
@@ -729,7 +709,7 @@
 				(justify right)
 			)
 		)
-		(pin "IMU_INT" input
+		(pin "IMU_INT" output
 			(at 172.72 50.8 0)
 			(uuid "fd395ee5-94d2-44cf-9dfc-85da9cfe3177")
 			(effects

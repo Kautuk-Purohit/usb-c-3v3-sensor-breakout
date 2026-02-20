@@ -900,7 +900,7 @@
 		(uuid "e7fc41eb-006f-4508-8547-aeff2ef338ea")
 	)
 	(hierarchical_label "+3V3"
-		(shape input)
+		(shape output)
 		(at 116.84 76.2 0)
 		(effects
 			(font
