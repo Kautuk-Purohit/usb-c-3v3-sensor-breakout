@@ -101,6 +101,7 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 
 ## Images
 - PCB 3D front:
+
 ![PCB 3D Front](Images/pcb_design/final_pcb_layout_3D_model_front.png)
 
 - PCB 3D back:
@@ -110,7 +111,7 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 ![PCB 3D Front](Images/pcb_design/final_pcb_layout.png)
 
 - Gerber overlay: 
-![PCB 3D Front](Images/manufacturing/gerber_viewer_pads_and_holes.png)
+![PCB 3D Front](Images/manufacturing/gerber_viewer_traces.png)
 
 - Drill overlay (PTH + NPTH): 
 ![PCB 3D Front](Images/manufacturing/gerber_viewer_pads_and_holes.png)
