@@ -83,14 +83,14 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 [RELEASE FILE](manufacturing/release/PCB_RELEASE_GERBER_DRILL.zip)
 
 ### Assembly data
-- BOM: [BOM](manufacturing/bom/usb_c_sensor_breakout.csv)
-- Pick and place files: [POS](manufacturing/assembly)
+- [BOM](manufacturing/bom/usb_c_sensor_breakout.csv)
+- [Pick and Place POS Files](manufacturing/assembly)
 
 ---
 
 ## How to Open
 1. Install KiCad (project created in KiCad 9.0).
-2. Open the project in `hardware/`.
+2. Open the project in `kicad/`.
 3. Review:
    - Schematic (`.kicad_sch`)
    - PCB layout (`.kicad_pcb`)
@@ -100,7 +100,9 @@ The goal is to show practical board design skills (power, interfaces, layout, ma
 ---
 
 ## Images
+
 - PCB 3D front:
+
 ![PCB 3D Front](Images/pcb_design/final_pcb_layout_3D_model_front.png)
 
 - PCB 3D back:
