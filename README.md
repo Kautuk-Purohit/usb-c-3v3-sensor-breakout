@@ -22,6 +22,7 @@ Includes a full schematic and PCB layout, verified with ERC (Electrical Rules Ch
 
 ## Overview
 This project demonstrates an end to end PCB workflow:
+
 schematic design → layout and routing → design rule checks → manufacturing outputs
 
 The goal is to show practical board design skills (power, interfaces, layout, manufacturability) 
